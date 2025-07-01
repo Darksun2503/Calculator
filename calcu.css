@@ -1,23 +1,23 @@
 body{
-    margin: 0;
-    height: 90vh;
+    margin: 0px;
+    height: 95vh;
+    width: 90vh;
     border-color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
     
     
 }
 
 
 #calci{
-background-color: wheat;
-height: 50%;
-width: 50%;
-display: flex;
+    display: flex;
+    align-items: center;
+    background-color: wheat;
+    height: 50%;
+    width: 60%;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+/* align-items: center; */
 border: 2px solid black;
 
 
@@ -38,6 +38,7 @@ width: 200px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
+    justify-content:center ;
 
 
 }
@@ -47,6 +48,7 @@ button { border: none;
     padding: 10px;
     color: black;
     border-radius: 50%;
+
     
 }
 
